@@ -8,6 +8,7 @@ public class TabuadaInicial {
     public int multiplicadorInicial;
     public int multiplicadorFInal;
     public String[] tabuada;
+
     public void receberDadosUsuario() {
         Scanner leitor = new Scanner(System.in);
         System.out.print("Qual é o valor do multiplicando? ");
