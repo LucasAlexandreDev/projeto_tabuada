@@ -23,7 +23,7 @@ public class TabuadaInicial {
         calcularTabuada();
     }
 
-    public void calcularTabuada(){
+    public String[] calcularTabuada(){
 
         int apoio = 0;
         if (multiplicadorFInal < multiplicadorInicial){
@@ -43,7 +43,10 @@ public class TabuadaInicial {
             multiplicadorInicial = multiplicadorInicial + 1;
             i = i + 1;
         }
-        exibirTabuada();
+
+        return tabuada;
+
+        //exibirTabuada();
     }
 
     public void exibirTabuada(){
